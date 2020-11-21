@@ -202,7 +202,7 @@ public class ReturnBookForm extends javax.swing.JFrame {
                    
                    if(TransBookDao.ReturnBook(BookIDV, UserIDV)!=0)
                    {
-                        JOptionPane.showMessageDialog(ReturnBookForm.this, "Book is returned by the User!","Returning Book Successfull!", JOptionPane.ERROR_MESSAGE);
+                        JOptionPane.showMessageDialog(ReturnBookForm.this, "Livro Retornado Pelo Usuário!","Retorno Com Sucesso!", JOptionPane.ERROR_MESSAGE);
                         UserID.setText("");
                         BookID.setText("");
                    }

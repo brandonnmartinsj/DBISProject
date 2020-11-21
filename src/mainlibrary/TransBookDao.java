@@ -43,26 +43,6 @@ public static boolean checkBook(String bookcallno){
     return status;
 }
 
-/*public static int save(int  BookID,int UserID,String IssuedDate,String ReturnDate){
-	int status=0;
-	try{
-		Connection con=DB.getConnection();
-		
-		status=updatebook(BookID;//updating quantity and issue
-		
-		if(status>0){
-		PreparedStatement ps=con.prepareStatement("insert IssuedBook(BookID,UserID,IssueDate,ReturnDate) values(?,?,?,?)");
-		ps.setString(1,bookcallno);
-		ps.setInt(2,studentid);
-		ps.setString(3,studentname);
-		ps.setString(4,studentcontact);
-		status=ps.executeUpdate();
-		}
-		
-		con.close();
-	}catch(Exception e){System.out.println(e);}
-	return status;
-} */
 public static int updatebook(String bookcallno){
 	int status=0;
 	int quantity=0,issued=0;

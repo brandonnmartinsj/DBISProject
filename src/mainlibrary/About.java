@@ -52,7 +52,7 @@ public class About extends javax.swing.JFrame {
         jTextArea3.setBackground(new java.awt.Color(210, 106, 231));
         jTextArea3.setColumns(20);
         jTextArea3.setRows(5);
-        jTextArea3.setText("\n                                                                About\n                                           Library Managment  Software");
+        jTextArea3.setText("\n                                                                About\n                                           Sistema De Biblioteca\n                                                             Brandon");
         jTextArea3.setAutoscrolls(false);
         jScrollPane3.setViewportView(jTextArea3);
 
